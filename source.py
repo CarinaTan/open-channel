@@ -39,20 +39,16 @@ class OpenChannel:
 
         # The normal depth to be calculated according to the channel type
         if self.channel == 'trapezoidal':
-            numerator = ((self.b * yn) + self.z * (yn**2))**(5/3)
-            denominator = (self.b + 2 * yn * (self.z**2 + 1)**(0.5))**(2/3)
+            # The Manning constant is subtracted from the rest of the expression
+            # to create an equation equal to zero
+            manning = lambda yn : ((self.b * yn) + self.z * (yn**2))**(5/3) / (self.b + 2 * yn * (self.z**2 + 1)**(0.5))**(2/3) - manning_constant
+            # Using scipy's fsolve to solve for the root (normal depth) of the
+            # equation with an initial guess of 1
+            return float(fsolve(manning, 1))
 
         elif self.channel == 'rectangular':
-            numerator = (self.b * yn)**(5/3)
-            denominator = (2 * yn + self.b)**(2/3)
-
-        # The Manning constant is subtracted from the rest of the expression to
-        # create an equation equal to zero
-        manning = lambda yn : numerator / denominator - manning_constant
-
-        # Using scipy's fsolve to solve for the root (normal depth) of the
-        # equation with an initial guess of 1
-        return float(fsolve(manning, 1))
+            manning = lambda yn : (self.b * yn)**(5/3) / (2 * yn + self.b)**(2/3) - manning_constant
+            return float(fsolve(manning, 1))
 
     def critical_depth(self):
         """ This function returns the critical depth in the channel depending on
@@ -70,9 +66,9 @@ class OpenChannel:
 
         # The critical depth to be calculated according to the channel type
         if self.channel == 'trapezoidal':
-            numerator = (((self.b * yc) + self.z * (yc**2))**3)
-            denominator = (self.b + 2 * self.z * yc)
-            critical = lambda yc : numerator / denominator - critical_constant
+            # The critical constant is subtracted from the rest of the
+            # expression to create an equation equal to zero
+            critical = lambda yc : ((((self.b * yc) + self.z * (yc**2))**3) / (self.b + 2 * self.z * yc)) - critical_constant
             # Using scipy's fsolve to solve for the root (critical depth) of the
             #equation with an initial guess of 1
             return float(fsolve(critical, 1))

@@ -3,7 +3,7 @@ Analysis of gradually varied open channel flow
 
 *This program is designed to be used in a part of the analysis of flow in either a rectangular or trapezoidal open channel.*
 
-## Contraints
+### Contraints
 * arguments passed into the program must be in imperial units
 * the program outputs answers in imperial units
 * distances are given and provided in units of feet
@@ -12,7 +12,7 @@ Analysis of gradually varied open channel flow
 * trapezoidal channels must be symmetrical
 * channel must slope downward
 
-## Inputs
+### Inputs
   1. **channel**: *str type*; describes the type of channel and may be either 'rectangular' or 'trapezoidal'
   2. **Q**: *numeric type*; flow rate given in units of cubic feet per second
   3. **b**: *numeric type*; length of the bottom width of the channel
@@ -22,7 +22,7 @@ Analysis of gradually varied open channel flow
   7. **alpha**: *numeric type*; a velocity correction factor
   8. **steps**: *numeric type*; the number of steps desired to determine the distance between two points along the channel
 
-## Outputs
+### Outputs
   1. **Normal depth**
   2. **Critical depth**
   3. **Immediate distance between two points along the channel**
@@ -32,16 +32,14 @@ Analysis of gradually varied open channel flow
       The category of slope is provided (mild or steep), along with the type of profile (M1, M2, M3, S1, S2, or S3).
   6. **Upstream point**: the upstream point between two points along the channel is stated.
 
-## How to use the program
+### How to use the program
 
 **Example problem**
 
 *Many segments of the Los Angeles River were "hardened" in past years by covering the riverbed in concrete. Along one segment of the river, it is now a concrete trapezoidal channel with a bottom width of 160 ft, a longitudinal slope of 0.0034, and 2H:1V sideslopes (z = 2). Assume n = 0.014 and alpha = 1.05.*
 
 * *The design discharge for this stretch of the channel is 83,700 cfs.*
-
 * *The depth of water is 15 ft at Point A.*
-
 * *The depth of water is 17 ft at Point B.*
 
 1.  Determine the normal depth.

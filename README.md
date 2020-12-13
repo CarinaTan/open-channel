@@ -32,6 +32,27 @@ Analysis of gradually varied open channel flow
       The category of slope is provided (mild or steep), along with the type of profile (M1, M2, M3, S1, S2, or S3).
   6. **Upstream point**: the upstream point between two points along the channel is stated.
 
+### Setup
+
+To use the program, clone/download this repository, navigate to the local directory, and create a virtual environment:
+```python
+$ python3 -m venv venv
+```
+
+Activate the virtual environment:
+```python
+For Linux/Mac OS:
+$ source venv/bin/activate
+
+For Windows:
+> venv\Scripts\activate
+```
+
+Install the required libraries for this program:
+```python
+$ pip install -r requirements.txt
+```
+
 ### How to use the program
 
 **Example problem**

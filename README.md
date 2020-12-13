@@ -47,17 +47,17 @@ Analysis of gradually varied open channel flow
 ```
 or
 ```python
->>>channel2 = OpenChannel('rectangular', 0.40107, 0.5, 0.02, None, 0.01, 1, 2)
+>>> channel2 = OpenChannel('rectangular', 0.40107, 0.5, 0.02, None, 0.01, 1, 2)
 ```
 2. Specify two depths along the channel
 ```python
->>>yA = 15
->>>yB = 17
+>>> yA = 15
+>>> yB = 17
 ```
 or
 ```python
->>>yA = 0.208
->>>yB = 0.25
+>>> yA = 0.208
+>>> yB = 0.25
 ```
 3. Call the function *normal depth* to determine the normal depth of the channel
 ```python
@@ -65,21 +65,21 @@ or
 ```
 4. Call the function *critical depth* to determine the critical depth of the channel
 ```python
->>>channel1.critical_depth()
+>>> channel1.critical_depth()
 ```
 5. Call the function *distance* to determine the immediate distance between the two specified points
 ```python
->>>channel1.distance(yA, yB)
+>>> channel1.distance(yA, yB)
 ```
 6. Call the function *step_table* to view the use of the direct step method in determining the distance between the two specified points
 ```python
->>>channel1.step_table(yA, yB)
+>>> channel1.step_table(yA, yB)
 ```
 7. Call the function *profile* to view the water surface profile and determine the slope category and type of profile of the flow
 ```python
->>>channel1.profile()
+>>> channel1.profile()
 ```
 8. Call the function *upstream_point* to determine which of the two specified points is upstream according to the profile
 ```python
->>>channel1.upstream_point(yA, yB)
+>> >channel1.upstream_point(yA, yB)
 ```

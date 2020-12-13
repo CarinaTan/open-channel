@@ -1,5 +1,6 @@
 from source import OpenChannel
 
+# Example 1: trapezoidal channel
 t_channel = OpenChannel('trapezoidal', 83700, 160, 0.0034, 2, 0.014, 1.05, 2)
 
 yA = 15
@@ -12,6 +13,7 @@ print(channel1.step_table(yA, yB))
 print(channel1.profile())
 print(channel1.upstream_point(yA, yB))
 
+# Example 2: rectangular channel
 r_channel = OpenChannel('rectangular', 0.40107, 0.5, 0.02, 2, 0.01, 1, 2)
 
 yA = 0.208

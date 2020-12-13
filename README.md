@@ -34,19 +34,19 @@ Analysis of gradually varied open channel flow
 
 ## How to use the program
 
-**Example problem**
-*Many segments of the Los Angeles River were "hardened" in past years by covering the riverbed in concrete. Along one segment of the river, it is now a concrete trapezoidal channel with a bottom width of 160 ft, a longitudinal slope of 0.0034, and 2H:1V sideslopes (z = 2). Assume n = 0.014 and alpha = 1.05.*
+**Example problem**\n
+*Many segments of the Los Angeles River were "hardened" in past years by covering the riverbed in concrete. Along one segment of the river, it is now a concrete trapezoidal channel with a bottom width of 160 ft, a longitudinal slope of 0.0034, and 2H:1V sideslopes (z = 2). Assume n = 0.014 and alpha = 1.05.*\n
 
-*The design discharge for this stretch of the channel is 83,70 cfs.*
-*The depth of water is 15 ft at Point A.*
-*The depth of water is 17 ft at Point B.*
+*The design discharge for this stretch of the channel is 83,70 cfs.*\n
+*The depth of water is 15 ft at Point A.*\n
+*The depth of water is 17 ft at Point B.*\n
 
-(a) Determine the normal depth.
-(b) Determine the critical depth.
-(c) What type of profile exists in the vicinity of Point A? Make a sketch fo the general shape of the water surface.
-(d) Which point is upstream, A or B?
-(e) Use the direct step method with a single step (delta y = 2 ft) to determine the distance from Point A to Point B.
-(f) Use the direct step method with two steps (two steps of delta y = 1 ft) to determine the distance from Point A to Point B.
+(a) Determine the normal depth.\n
+(b) Determine the critical depth.\n
+(c) What type of profile exists in the vicinity of Point A? Make a sketch fo the general shape of the water surface.\n
+(d) Which point is upstream, A or B?\n
+(e) Use the direct step method with a single step (delta y = 2 ft) to determine the distance from Point A to Point B.\n
+(f) Use the direct step method with two steps (two steps of delta y = 1 ft) to determine the distance from Point A to Point B.\n
 
 1. Instantiate a new object of 'OpenChannel'
 ```python

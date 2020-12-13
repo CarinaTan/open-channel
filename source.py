@@ -184,7 +184,7 @@ class OpenChannel:
         """ This function displays a plot of the water surface profile along
             with the normal depth line, critical depth line, and channel bottom
             surface. The type of water surface profile and category of slope is
-            shown below the table.
+            shown below the plot.
         """
         # y-coordinates of the normal depth line
         NDL_y = []

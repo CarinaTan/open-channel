@@ -183,7 +183,7 @@ class OpenChannel:
     def profile(self):
         """ This function displays a plot of the water surface profile along
             with the normal depth line, critical depth line, and channel bottom
-            surface. The type of water surface profile and category of slope is
+            surface. The type of water surface profile and category of slope are
             shown below the plot.
         """
         # y-coordinates of the normal depth line

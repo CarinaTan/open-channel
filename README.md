@@ -44,10 +44,10 @@ Analysis of gradually varied open channel flow
 
 1.  Determine the normal depth.
 2.  Determine the critical depth.
-3.  What type of profile exists in the vicinity of Point A? Make a sketch fo the general shape of the water surface.
-4.  Which point is upstream, A or B?
-5.  Use the direct step method with a single step (delta y = 2 ft) to determine the distance from Point A to Point B.
-6.  Use the direct step method with two steps (two steps of delta y = 1 ft) to determine the distance from Point A to Point B.
+3.  Use the direct step method with a single step (delta y = 2 ft) to determine the distance from Point A to Point B.
+4.  Use the direct step method with two steps (two steps of delta y = 1 ft) to determine the distance from Point A to Point B.
+5.  What type of profile exists in the vicinity of Point A? Make a sketch fo the general shape of the water surface.
+6.  Which point is upstream, A or B?
 
 
 **1. Instantiate a new object of 'OpenChannel'**

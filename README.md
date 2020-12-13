@@ -73,5 +73,5 @@ or
 ```
 8. Call the function *upstream_point* to determine which of the two specified points is upstream according to the profile
 ```python
->> >channel1.upstream_point(yA, yB)
+>>> channel1.upstream_point(yA, yB)
 ```

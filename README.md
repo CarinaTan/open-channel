@@ -12,14 +12,6 @@ Analysis of gradually varied open channel flow
 * trapezoidal channels must be symmetrical
 * channel must slope downward
 
-## Required external libraries:
-* numpy
-* matplotlib
-* tabulate
-  - tabulate
-* scipy.optimize
-  - fsolve
-
 ## Inputs
   1. **channel**: *str type*; describes the type of channel and may be either 'rectangular' or 'trapezoidal'
   2. **Q**: *numeric type*; flow rate given in units of cubic feet per second

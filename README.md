@@ -29,7 +29,7 @@ Analysis of gradually varied open channel flow
   4. **Step table**: uses the step method to determine the distance between two points along the channel.
       The more steps that are provided, the greater the accuracy of the distance between the points.
   5. **Water surface profile**: a graphical display of the water surface profile, channel bottom, normal depth line, and critical depth line.
-      The category of slope is provided (mild or steep), along with the type of profile (M1, M2, M3, S1, S2, and S3).
+      The category of slope is provided (mild or steep), along with the type of profile (M1, M2, M3, S1, S2, or S3).
   6. **Upstream point**: the upstream point between two points along the channel is stated.
 
 ## How to use the program

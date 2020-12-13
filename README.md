@@ -41,12 +41,12 @@ Analysis of gradually varied open channel flow
 *The depth of water is 15 ft at Point A.*
 *The depth of water is 17 ft at Point B.*
 
-# (a) Determine the normal depth.
-# (b) Determine the critical depth.
-# (c) What type of profile exists in the vicinity of Point A? Make a sketch fo the general shape of the water surface.
-# (d) Which point is upstream, A or B?
-# (e) Use the direct step method with a single step (delta y = 2 ft) to determine the distance from Point A to Point B.
-# (f) Use the direct step method with two steps (two steps of delta y = 1 ft) to determine the distance from Point A to Point B.
+(a) Determine the normal depth.
+(b) Determine the critical depth.
+(c) What type of profile exists in the vicinity of Point A? Make a sketch fo the general shape of the water surface.
+(d) Which point is upstream, A or B?
+(e) Use the direct step method with a single step (delta y = 2 ft) to determine the distance from Point A to Point B.
+(f) Use the direct step method with two steps (two steps of delta y = 1 ft) to determine the distance from Point A to Point B.
 
 1. Instantiate a new object of 'OpenChannel'
 ```python

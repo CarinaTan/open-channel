@@ -36,18 +36,20 @@ Analysis of gradually varied open channel flow
 
 **Example problem**
 
-*Many segments of the Los Angeles River were "hardened" in past years by covering the riverbed in concrete. Along one segment of the river, it is now a concrete trapezoidal channel with a bottom width of 160 ft, a longitudinal slope of 0.0034, and 2H:1V sideslopes (z = 2). Assume n = 0.014 and alpha = 1.05.*\
+*Many segments of the Los Angeles River were "hardened" in past years by covering the riverbed in concrete. Along one segment of the river, it is now a concrete trapezoidal channel with a bottom width of 160 ft, a longitudinal slope of 0.0034, and 2H:1V sideslopes (z = 2). Assume n = 0.014 and alpha = 1.05.*
 
-*The design discharge for this stretch of the channel is 83,70 cfs.*\n
-*The depth of water is 15 ft at Point A.*\n
-*The depth of water is 17 ft at Point B.*\n
+* *The design discharge for this stretch of the channel is 83,700 cfs.*
 
-(a) Determine the normal depth.\n
-(b) Determine the critical depth.\n
-(c) What type of profile exists in the vicinity of Point A? Make a sketch fo the general shape of the water surface.\n
-(d) Which point is upstream, A or B?\n
-(e) Use the direct step method with a single step (delta y = 2 ft) to determine the distance from Point A to Point B.\n
-(f) Use the direct step method with two steps (two steps of delta y = 1 ft) to determine the distance from Point A to Point B.\n
+* *The depth of water is 15 ft at Point A.*
+
+* *The depth of water is 17 ft at Point B.*
+
+1.  Determine the normal depth.
+2.  Determine the critical depth.
+3.  What type of profile exists in the vicinity of Point A? Make a sketch fo the general shape of the water surface.
+4.  Which point is upstream, A or B?
+5.  Use the direct step method with a single step (delta y = 2 ft) to determine the distance from Point A to Point B.
+6.  Use the direct step method with two steps (two steps of delta y = 1 ft) to determine the distance from Point A to Point B.
 
 1. Instantiate a new object of 'OpenChannel'
 ```python

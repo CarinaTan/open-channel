@@ -49,36 +49,37 @@ Analysis of gradually varied open channel flow
 5.  Use the direct step method with a single step (delta y = 2 ft) to determine the distance from Point A to Point B.
 6.  Use the direct step method with two steps (two steps of delta y = 1 ft) to determine the distance from Point A to Point B.
 
-1. Instantiate a new object of 'OpenChannel'
+
+**1. Instantiate a new object of 'OpenChannel'**
 ```python
 >>> channel1 = OpenChannel('trapezoidal', 83700, 160, 0.0034, 2, 0.014, 1.05, 2)
 ```
-2. Specify two depths along the channel
+**2. Specify two depths along the channel**
 ```python
 >>> yA = 15
 >>> yB = 17
 ```
-3. Call the function *normal depth* to determine the normal depth of the channel
+**3. Call the function *normal depth* to determine the normal depth of the channel**
 ```python
 >>> channel1.normal_depth()
 ```
-4. Call the function *critical depth* to determine the critical depth of the channel
+**4. Call the function *critical depth* to determine the critical depth of the channel**
 ```python
 >>> channel1.critical_depth()
 ```
-5. Call the function *distance* to determine the immediate distance between the two specified points
+**5. Call the function *distance* to determine the immediate distance between the two specified points**
 ```python
 >>> channel1.distance(yA, yB)
 ```
-6. Call the function *step_table* to view the use of the direct step method in determining the distance between the two specified points
+**6. Call the function *step_table* to view the use of the direct step method in determining the distance between the two specified points**
 ```python
 >>> channel1.step_table(yA, yB)
 ```
-7. Call the function *profile* to view the water surface profile and determine the slope category and type of profile of the flow
+**7. Call the function *profile* to view the water surface profile and determine the slope category and type of profile of the flow**
 ```python
 >>> channel1.profile()
 ```
-8. Call the function *upstream_point* to determine which of the two specified points is upstream according to the profile
+**8. Call the function *upstream_point* to determine which of the two specified points is upstream according to the profile**
 ```python
 >>> channel1.upstream_point(yA, yB)
 ```

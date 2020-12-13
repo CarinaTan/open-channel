@@ -33,27 +33,29 @@ Analysis of gradually varied open channel flow
   6. **Upstream point**: the upstream point between two points along the channel is stated.
 
 ## How to use the program
+
+**Example problem**
+*Many segments of the Los Angeles River were "hardened" in past years by covering the riverbed in concrete. Along one segment of the river, it is now a concrete trapezoidal channel with a bottom width of 160 ft, a longitudinal slope of 0.0034, and 2H:1V sideslopes (z = 2). Assume n = 0.014 and alpha = 1.05.*
+
+*The design discharge for this stretch of the channel is 83,70 cfs.*
+*The depth of water is 15 ft at Point A.*
+*The depth of water is 17 ft at Point B.*
+
+# (a) Determine the normal depth.
+# (b) Determine the critical depth.
+# (c) What type of profile exists in the vicinity of Point A? Make a sketch fo the general shape of the water surface.
+# (d) Which point is upstream, A or B?
+# (e) Use the direct step method with a single step (delta y = 2 ft) to determine the distance from Point A to Point B.
+# (f) Use the direct step method with two steps (two steps of delta y = 1 ft) to determine the distance from Point A to Point B.
+
 1. Instantiate a new object of 'OpenChannel'
 ```python
-# Example 1
 >>> channel1 = OpenChannel('trapezoidal', 83700, 160, 0.0034, 2, 0.014, 1.05, 2)
-```
-or
-```python
-# Example 2
->>> channel2 = OpenChannel('rectangular', 0.40107, 0.5, 0.02, None, 0.01, 1, 2)
 ```
 2. Specify two depths along the channel
 ```python
-# Example 1
 >>> yA = 15
 >>> yB = 17
-```
-or
-```python
-# Example 2
->>> yA = 0.208
->>> yB = 0.25
 ```
 3. Call the function *normal depth* to determine the normal depth of the channel
 ```python

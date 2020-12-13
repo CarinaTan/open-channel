@@ -34,8 +34,8 @@ Analysis of gradually varied open channel flow
 
 ## How to use the program
 
-**Example problem**\n
-*Many segments of the Los Angeles River were "hardened" in past years by covering the riverbed in concrete. Along one segment of the river, it is now a concrete trapezoidal channel with a bottom width of 160 ft, a longitudinal slope of 0.0034, and 2H:1V sideslopes (z = 2). Assume n = 0.014 and alpha = 1.05.*\n
+**Example problem**\r?\n|\r
+*Many segments of the Los Angeles River were "hardened" in past years by covering the riverbed in concrete. Along one segment of the river, it is now a concrete trapezoidal channel with a bottom width of 160 ft, a longitudinal slope of 0.0034, and 2H:1V sideslopes (z = 2). Assume n = 0.014 and alpha = 1.05.*\
 
 *The design discharge for this stretch of the channel is 83,70 cfs.*\n
 *The depth of water is 15 ft at Point A.*\n
